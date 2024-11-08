@@ -1,0 +1,12 @@
+name: hello world
+on: push
+jobs:
+  print-information:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print hello world
+        run: echo "Hello world"
+      - name: printRegistration No
+        run: echo "2344556677"
+      - name: print name
+        run: echo "Sandesh Dangi"
