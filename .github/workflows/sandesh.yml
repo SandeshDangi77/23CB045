@@ -1,13 +1,14 @@
-name: sandesh
+name: deploy react app
 on: push
 jobs:
-  print-information:
+  deploy-react-react:
     runs-on: ubuntu-latest
     steps: 
-       - name: print what you have learn
-         run: echo"i have learn to create a new file"
-       - name: print how was the class 
-         run: echo "the class was wonderful"
-       - name: print how was the resourse person
-         run: echo "The resourse person was the one who made the class more engaging "
-         
+       - name: clone the repository
+         run: actions/checkout@v4
+       - name: install npm packages
+         run: npm install
+       - name: run npm
+         run: npm run build 
+       - name: start npm
+         run: npm start
