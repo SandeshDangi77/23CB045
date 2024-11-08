@@ -1,0 +1,13 @@
+name: sandesh
+on: push
+jobs:
+  print-information:
+    runs-on: ubuntu-latest
+    steps: 
+       - name: print what you have learn
+         run: echo"i have learn to create a new file"
+       - name: print how was the class 
+         run: echo "the class was wonderful"
+       - name: print how was the resourse person
+         run: echo "The resourse person was the one who made the class more engaging "
+         
