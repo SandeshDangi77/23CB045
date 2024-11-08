@@ -8,7 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Hello world Sandesh Dangi -23CB045
-          Hello world Sandesh Dangi -23CB045
+          Hello world Dangi Sandesh -23CB045
     
         </p>
         <a
